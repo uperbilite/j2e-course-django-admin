@@ -10,7 +10,7 @@ from django.db import models
 
 class Book(models.Model):
     name = models.CharField(max_length=255, blank=True, null=True)
-    discription = models.CharField(max_length=255, blank=True, null=True)
+    description = models.CharField(max_length=255, blank=True, null=True)
     cover = models.CharField(max_length=255, blank=True, null=True)
     price = models.CharField(max_length=255, blank=True, null=True)
     stock = models.CharField(max_length=255, blank=True, null=True)
